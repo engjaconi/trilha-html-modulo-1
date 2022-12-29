@@ -14,3 +14,11 @@ Este desafio vai fazer com que tenha dúvidas, o que é ótimo! Aos poucos você
 Após concluído este desafio! Siga para o <strong>Módulo II - Conceitos Básicos.</strong>
 
 Nos vemos lá!
+
+<h2>Resultado final:</h2>
+<h3>Header</h3>
+<img width="500px" src="image/projeto-final-header.png">
+<h3>Footer</h3>
+<img width="500px" src="image/projeto-final-footer.png">
+<h3>Gif</h3>
+<img width="500px" src="image/projeto-final.gif">

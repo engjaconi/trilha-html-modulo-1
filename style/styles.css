@@ -1,0 +1,134 @@
+/* Variáveis */
+:root {
+    --black: rgb(63, 61, 61);
+    --azul: rgb(53, 92, 165);
+    --cinza: rgb(62, 70, 85);
+    --branco: rgb(238, 235, 235);
+    --rosa: #ff6d91;
+    --borda-separacao: 1px solid var(--azul);
+}
+
+/* Reset Html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    background-color: var(--black);
+    color: var(--cinza);
+    max-width: 900px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+body a {
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+body hr {
+    border: var(--borda-separacao);
+    margin: 10px;
+}
+
+body .fa-solid,
+body .fa-brands {
+    margin-right: 5px;
+}
+
+body .container {
+    margin: 0 40px;
+    min-width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 hsla(0, 8%, 3%, 0.8);
+    background-color: var(--branco);
+}
+
+body header {
+    margin: 20px auto;
+    font-size: 36px;
+    font-style: italic;
+    font-family:  Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(238, 235, 235);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;  
+}
+
+body header .photo-user {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-right: 20px;
+}
+
+body nav {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+body nav h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: var(--azul);
+}
+
+body nav h2,
+body div main section h2 {
+    margin: 10px 0;
+    color: var(--cinza);
+}
+
+body nav ol,
+body div main section ol,
+body div main section ul {
+    margin-left: 30px;
+}
+
+body div main section i {
+    padding: 10px;
+}
+
+body main section ul {
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+body main section img {
+    display: block;
+    width: 300px;
+    height: 250px;
+    margin: 5px auto;
+}
+
+body main section figcaption {
+    text-align: center;
+}
+
+body main section p {
+    text-align: justify;
+    padding: 10px;
+}
+
+body main section code .tag-html, main section code .texto-prop-html {
+    color: var(--azul);
+}
+
+body main div section code .prop-html {
+    color: var(--rosa);
+}
+
+body footer p{
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
